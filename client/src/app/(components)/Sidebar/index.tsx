@@ -48,7 +48,7 @@ const Sidebar = () => {
                 <Image src="https://s3mckinventorymanagement.s3.ap-south-1.amazonaws.com/logo.png" alt='logo'
                     width={27} height={27} className='rounded w-8'
                 />
-                <h1 className={`${isSidebarCollapsed ? "hidden" : "block"} font-extrabold text-2xl`} >MKSTOCK</h1>
+                <h1 className={`${isSidebarCollapsed ? "hidden" : "block"} font-extrabold text-2xl`} >MStock</h1>
                 <button className="md:hidden px-3 py-3 bg-gray-100 rounded-full hover:bg-blue-100" onClick={toggleSidebar}>
                     <Menu className="w-4 h-4" />
                 </button>
@@ -64,7 +64,7 @@ const Sidebar = () => {
             </div>
             {/*FOOTER*/}
             <div className={`${isSidebarCollapsed ? "hidden" : "block"} mb-10`}>
-                <p className="text-center text-xs text-gray-500">&copy; 2024 MKStock</p>
+                <p className="text-center text-xs text-gray-500">&copy; 2024 MStock</p>
             </div>
         </div>
     )
